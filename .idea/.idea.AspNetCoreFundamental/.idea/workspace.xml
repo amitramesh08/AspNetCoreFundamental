@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Add Razor Page">
-      <change afterPath="$PROJECT_DIR$/ToDoOdt.Core/CuisineType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Add project for ToDoOtd.Core and ToDoOtd.Data">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AspNetCoreFundamental.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AspNetCoreFundamental.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoOdt/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoOdt/ToDoOdt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/ToDoOdt.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +137,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587388898313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add project for ToDoOtd.Core and ToDoOtd.Data">
+      <created>1587392929317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587392929317</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add project for ToDoOtd.Core and ToDoOtd.Data">
+      <created>1587392940514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587392940514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add project for ToDoOtd.Core and ToDoOtd.Data">
+      <created>1587393031695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587393031695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Razor Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Razor Page" />
+    <MESSAGE value="Add project for ToDoOtd.Core and ToDoOtd.Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project for ToDoOtd.Core and ToDoOtd.Data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Plugins" timestamp="1587386711131">
@@ -195,22 +209,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587388941556" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587392814227">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587393540542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587392814227" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587392814226">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587393540542" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587393540542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587392814226" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587392814226">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587393540542" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587393540541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587392814226" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587392814227">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587393540541" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587393540542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587392814227" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587393540542" />
     <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size" timestamp="1587389906948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,10 +233,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="95" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587387538643" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1587392932509">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1587393036129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587392932509" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587393036129" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587380270735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
