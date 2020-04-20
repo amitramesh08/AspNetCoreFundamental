@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Add Razor Page">
+      <change afterPath="$PROJECT_DIR$/ToDoOdt.Core/CuisineType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AspNetCoreFundamental.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AspNetCoreFundamental.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoOdt/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoOdt/ToDoOdt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/ToDoOdt.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoOdt/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,9 @@
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt.Core/Restaurant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -37,11 +43,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ToDoOdt/Startup.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/ToDoOdt/appsettings.json" />
-        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" />
+        <option value="$PROJECT_DIR$/ToDoOdt.Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt.Core/Restaurant.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt.Data/Class1.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt/Startup.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" />
       </list>
     </option>
   </component>
@@ -128,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587386932180</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Razor Page">
+      <created>1587388898313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587388898313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +174,10 @@
       </set>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Razor Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Razor Page" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Plugins" timestamp="1587386711131">
       <screen x="0" y="0" width="1366" height="728" />
@@ -165,30 +187,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="362" y="193" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1587380712434" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587388774581">
+    <state width="395" height="442" key="Diff.GoToChangePopup" timestamp="1587388917168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587388774581" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587388236633">
+    <state width="395" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1587388917168" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587388941556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587388236633" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587388236632">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587388941556" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587392814227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587388236632" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587388236632">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587392814227" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587392814226">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587388236632" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587388236632">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587392814226" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587392814226">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587388236632" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587392814226" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587392814227">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587392814227" />
+    <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size" timestamp="1587389906948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1587389906948" />
     <state x="95" y="0" key="SettingsEditor" timestamp="1587387538643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="95" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587387538643" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1587388943015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587388943015" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587380270735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

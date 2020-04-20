@@ -16,6 +16,12 @@
     <button class="primary">Testing </button>
     <h1>Restaurants</h1>
     <h1>@Model.MessageData</h1>
+    @foreach (var item in  Model.Restarants)
+    {
+        <div>
+            @item.Name
+        </div>
+    }
 </div>
 </body>
 </html>

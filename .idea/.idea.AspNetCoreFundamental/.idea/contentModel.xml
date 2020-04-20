@@ -103,6 +103,32 @@
           </e>
         </e>
       </e>
+      <e p="ToDoOdt.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CuisineType.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ToDoOdt.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Restaurant.cs" t="Include" />
+        <e p="ToDoOdt.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ToDoOdt.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="InMemoryRestaurantData.cs" t="Include" />
+        <e p="IRestaurantData.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ToDoOdt.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ToDoOdt.Data.csproj" t="IncludeRecursive" />
+      </e>
     </e>
     <e p="C:\Users\ADMIN\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\.Rider2019.3\config\extensions" t="IncludeRecursive" />
