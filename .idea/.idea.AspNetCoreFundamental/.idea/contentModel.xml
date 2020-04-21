@@ -26,6 +26,8 @@
           <e p="Privacy.cshtml" t="Include" />
           <e p="Privacy.cshtml.cs" t="Include" />
           <e p="Restaurants" t="Include">
+            <e p="Detail.cshtml" t="Include" />
+            <e p="Detail.cshtml.cs" t="Include" />
             <e p="List.cshtml" t="Include" />
             <e p="List.cshtml.cs" t="Include" />
           </e>
