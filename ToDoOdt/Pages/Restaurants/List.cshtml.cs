@@ -11,19 +11,17 @@ namespace ToDoOdt.Pages.Restaurants
     {
         private readonly IConfiguration _configuration;
         private readonly IRestaurantData _restaurantData;
-        public List<Restaurant> Restarants { get; private set; }
+        public List<Restaurant> Restarants { get;  set; }
 
         public List(IConfiguration configuration,IRestaurantData restaurantData)
         {
             _configuration = configuration;
             _restaurantData = restaurantData;
         }
-        public string MessageData { get; set; }
-        
-        public void OnGet()
+
+        public void OnGet(string restaurantName)
         {
-            Restarants = _restaurantData.GetAllRestaurant().ToList();
-            MessageData = _configuration["MessageData"];
+            Restarants = _restaurantData.GetAllRestaurantByName(restaurantName).ToList();
         }
     }
 }

@@ -17,9 +17,15 @@ namespace ToDoOdt.Data
                 new Restaurant{Id = 1,Name = "Coutery Special",Location = "India",Cuisine = CuisineType.Indian}
             };
         }
-        public IEnumerable<Restaurant> GetAllRestaurant()
+        public IEnumerable<Restaurant> GetAllRestaurantByName(string restaurantName)
         {
-            return _restaurants.OrderBy(r => r.Name);
+            if (string.IsNullOrEmpty(restaurantName))
+            {
+                return _restaurants;
+            }
+            return _restaurants
+                .Where(x=>!string.IsNullOrEmpty(x.Name) && x.Name.StartsWith(restaurantName))
+                .OrderBy(r => r.Name);
         }
     }
 }

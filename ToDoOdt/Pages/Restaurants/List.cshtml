@@ -1,31 +1,42 @@
 ﻿@page
+@using ToDoOdt.Pages.Shared
 @model ToDoOdt.Pages.Restaurants.List
-
-@{
-    Layout = null;
-}
-
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <!DOCTYPE html>
 
 <html>
 <head>
     <title></title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
 </head>
 <body>
+
 <div class="container">
-    <button class="primary">Testing </button>
+
     <h1>Restaurants</h1>
-    <h1>@Model.MessageData</h1>
+    <form method="get">
+        <div class="from-group">
+            <div class="input-group">
+                <input name="restaurantName" class="form-control" type="search" value="">
+                <button type="submit" class="btn btn-primary btn-sm">
+                     Search
+                 </button>
+            </div>
+        </div>
+    </form>
+    
     <table class="table">
-    @foreach (var item in  Model.Restarants)
-    {
-        <tr>
-            <td>@item.Name</td>
-            <td>@item.Location</td>
-            <td>@item.Cuisine.ToString()</td>
-        </tr>    
-    }
+        @foreach (var item in  Model.Restarants)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Location</td>
+                <td>@item.Cuisine.ToString()</td>
+            </tr>
+        }
     </table>
 </div>
+@* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
 </body>
 </html>
