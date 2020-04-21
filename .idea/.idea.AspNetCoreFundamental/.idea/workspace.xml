@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Emit Cheat sheet">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+=======
+    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Add project for ToDoOtd.Core and ToDoOtd.Data">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" afterDir="false" />
+>>>>>>> Feature_Detail_Page
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +27,15 @@
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
+=======
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/22/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/13D/FilterCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BDC52024-8CDF-4506-B4B6-E4C327C0B6CB/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+>>>>>>> Feature_Detail_Page
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/22/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
@@ -30,16 +44,25 @@
     <setting file="file://$PROJECT_DIR$/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Core/Restaurant.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/13D/FilterCursor.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Detail.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Feature_Detail_Page
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/62/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BDC52024-8CDF-4506-B4B6-E4C327C0B6CB/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+=======
+>>>>>>> Feature_Detail_Page
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -56,7 +79,14 @@
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/test.cshtml" />
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" />
+=======
+        <option value="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml" />
+        <option value="$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" />
+>>>>>>> Feature_Detail_Page
       </list>
     </option>
   </component>
@@ -227,6 +257,7 @@
         <entry key="MAIN">
           <value>
             <State>
+<<<<<<< HEAD
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -238,6 +269,8 @@
                   </entry>
                 </map>
               </option>
+=======
+>>>>>>> Feature_Detail_Page
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -352,6 +385,7 @@
     <state width="1322" height="217" key="GridCell.Tab.3.right" timestamp="1587459407429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+<<<<<<< HEAD
     <state width="1322" height="217" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1587459407429" />
     <state width="1322" height="217" key="GridCell.Tab.4.bottom" timestamp="1587459407430">
       <screen x="0" y="0" width="1366" height="728" />
@@ -369,6 +403,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1587459407430" />
+=======
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587388941556" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587487882291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587487882291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587487882291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587487882291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
+>>>>>>> Feature_Detail_Page
     <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size" timestamp="1587389906948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -389,11 +442,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587388006350" />
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587488245045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587488245045" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs</url>
           <line>22</line>
           <properties documentPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" initialLine="22">
@@ -445,6 +503,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
+=======
+          <url>file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" initialLine="8">
+            <startOffsets>
+              <option value="343" />
+            </startOffsets>
+            <endOffsets>
+              <option value="344" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+>>>>>>> Feature_Detail_Page
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

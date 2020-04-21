@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using ToDoOdt.Core;
@@ -13,15 +14,18 @@ namespace ToDoOdt.Pages.Restaurants
         private readonly IRestaurantData _restaurantData;
         public List<Restaurant> Restarants { get;  set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string  RestaurantName { get; set; }
+
         public List(IConfiguration configuration,IRestaurantData restaurantData)
         {
             _configuration = configuration;
             _restaurantData = restaurantData;
         }
 
-        public void OnGet(string restaurantName)
+        public void OnGet()
         {
-            Restarants = _restaurantData.GetAllRestaurantByName(restaurantName).ToList();
+            Restarants = _restaurantData.GetAllRestaurantByName(RestaurantName).ToList();
         }
     }
 }

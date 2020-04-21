@@ -1,0 +1,37 @@
+﻿@page
+@model ToDoOdt.Pages.Restaurants.Detail
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                Detail
+            </div>
+            <div class="card-body">
+                <div>
+                Id : @Model.Restaurant.Id 
+                </div>
+                <div>
+                Name : @Model.Restaurant.Name
+                </div>
+                <div>
+                Location : @Model.Restaurant.Location
+                </div>
+                <div>
+                Cuisine : @Model.Restaurant.Cuisine
+                </div>
+                <a asp-page="./List">All Restaurants</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

@@ -13,10 +13,11 @@ namespace ToDoOdt.Data
             _restaurants = new List<Restaurant>()
             {
                 new Restaurant{Id = 1,Name = "Piza Mania",Location = "India",Cuisine = CuisineType.Indian},
-                new Restaurant{Id = 1,Name = "Pape",Location = "India",Cuisine = CuisineType.Indian},
-                new Restaurant{Id = 1,Name = "Coutery Special",Location = "India",Cuisine = CuisineType.Indian}
+                new Restaurant{Id = 2,Name = "Pape",Location = "India",Cuisine = CuisineType.Indian},
+                new Restaurant{Id = 3,Name = "Coutery Special",Location = "India",Cuisine = CuisineType.Indian}
             };
         }
+        
         public IEnumerable<Restaurant> GetAllRestaurantByName(string restaurantName)
         {
             if (string.IsNullOrEmpty(restaurantName))
@@ -26,6 +27,11 @@ namespace ToDoOdt.Data
             return _restaurants
                 .Where(x=>!string.IsNullOrEmpty(x.Name) && x.Name.StartsWith(restaurantName))
                 .OrderBy(r => r.Name);
+        }
+
+        public Restaurant GetRestaurantById(int restaurantId)
+        {
+            return _restaurants.Single(x => x.Id.Equals(restaurantId));
         }
     }
 }
