@@ -8,5 +8,7 @@ namespace ToDoOdt.Data
     {
         IEnumerable<Restaurant> GetAllRestaurantByName(string restaurantName);
         Restaurant GetRestaurantById(int restaurantId);
+        Restaurant UpdateRestaurant(Restaurant restaurant);
+
     }
 }
