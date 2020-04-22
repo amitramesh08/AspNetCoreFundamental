@@ -27,5 +27,10 @@ namespace ToDoOdt.Data
                 .Where(x=>!string.IsNullOrEmpty(x.Name) && x.Name.StartsWith(restaurantName))
                 .OrderBy(r => r.Name);
         }
+
+        public Restaurant GetGetRestaurantById(int restaurantId)
+        {
+            return _restaurants.Single(x => x.Id.Equals(restaurantId));
+        }
     }
 }

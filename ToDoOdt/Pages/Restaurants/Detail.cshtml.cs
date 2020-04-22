@@ -14,7 +14,7 @@ namespace ToDoOdt.Pages.Restaurants
         }
         public void OnGet(int restaurantId)
         {
-            Restaurant = _restaurantData.GetRestaurantById(restaurantId);
+            Restaurant = _restaurantData.GetGetRestaurantById(restaurantId);
         }
     }
 }
