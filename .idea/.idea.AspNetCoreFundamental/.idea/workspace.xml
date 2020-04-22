@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Add project for ToDoOtd.Core and ToDoOtd.Data">
+    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Emit Cheat sheet">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,20 +15,26 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ToDoOdt/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/22/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Core/Restaurant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Detail.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/13D/FilterCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/62/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BDC52024-8CDF-4506-B4B6-E4C327C0B6CB/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -56,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="diff.external" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ToDoOdt: IIS Express (1)">
     <configuration name="ToDoOdt" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -176,7 +181,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -205,34 +212,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="395" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1587388917168" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587388941556">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587532379653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587388941556" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587393540542">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587532379653" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587491136102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587393540542" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587393540542">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587491136102" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587491136101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587393540542" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587393540541">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587491136101" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587491136101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587393540541" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587393540542">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587491136101" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587491136101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587393540542" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587491136101" />
     <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size" timestamp="1587389906948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1587389906948" />
-    <state x="95" y="0" key="SettingsEditor" timestamp="1587387538643">
+    <state x="95" y="0" key="SettingsEditor" timestamp="1587532622135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587387538643" />
+    <state x="95" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587532622135" />
     <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1587393036129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -245,6 +252,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587388006350" />
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587532400480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587532400480" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
