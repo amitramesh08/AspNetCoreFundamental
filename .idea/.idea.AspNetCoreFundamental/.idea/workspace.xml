@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Emit Cheat sheet">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-=======
-    <list default="true" id="49e60cd4-588b-4b93-adba-733259d74fbb" name="Default Changelist" comment="Add project for ToDoOtd.Core and ToDoOtd.Data">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml" afterDir="false" />
->>>>>>> Feature_Detail_Page
+    <list default="true" id="03a3474f-1abf-47db-bf1f-fd95fb180014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,85 +10,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="DEVToDoOtd" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
-<<<<<<< HEAD
-=======
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/22/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/13D/FilterCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BDC52024-8CDF-4506-B4B6-E4C327C0B6CB/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
->>>>>>> Feature_Detail_Page
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/22/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt.Core/Restaurant.cs" root0="FORCE_HIGHLIGHTING" />
-<<<<<<< HEAD
-    <setting file="file://$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/13D/FilterCursor.cs" root0="FORCE_HIGHLIGHTING" />
-=======
-    <setting file="file://$PROJECT_DIR$/ToDoOdt/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Detail.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
->>>>>>> Feature_Detail_Page
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/62/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-<<<<<<< HEAD
-    <setting file="file://$PROJECT_DIR$/ToDoOdt/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BDC52024-8CDF-4506-B4B6-E4C327C0B6CB/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-=======
->>>>>>> Feature_Detail_Page
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/ToDoOdt/appsettings.json" />
         <option value="$PROJECT_DIR$/ToDoOdt.Core/Class1.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt.Core/Restaurant.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt.Data/Class1.cs" />
+        <option value="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt/Startup.cs" />
-        <option value="$PROJECT_DIR$/ToDoOdt/ToDoOdt.csproj" />
-        <option value="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" />
-        <option value="$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" />
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" />
-        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/test.cshtml" />
         <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" />
-=======
-        <option value="$PROJECT_DIR$/ToDoOdt.Data/IRestaurantData.cs" />
-        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" />
-        <option value="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml" />
-        <option value="$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" />
->>>>>>> Feature_Detail_Page
       </list>
     </option>
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ank6lXBEVjwH6dDb3S7Nqa40vk" />
   <component name="ProjectViewState">
@@ -105,14 +62,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="diff.external" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ToDoOdt: IIS Express (1)">
     <configuration name="ToDoOdt" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -162,9 +112,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Launch Settings Profile.ToDoOdt: IIS Express (1)" />
-        <item itemvalue=".NET Launch Settings Profile.ToDoOdt: IIS Express (1)" />
-        <item itemvalue=".NET Launch Settings Profile.ToDoOdt: IIS Express (1)" />
         <item itemvalue=".NET Launch Settings Profile.ToDoOdt: IIS Express (1)" />
       </list>
     </recent_temporary>
@@ -217,28 +164,7 @@
       <option name="project" value="LOCAL" />
       <updated>1587393031695</updated>
     </task>
-    <task id="LOCAL-00005" summary="Display values in Page">
-      <created>1587393604067</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1587393604067</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Display values in Page">
-      <created>1587469475612</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1587469475612</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Emit Cheat sheet">
-      <created>1587469526205</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1587469526205</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,20 +183,6 @@
         <entry key="MAIN">
           <value>
             <State>
-<<<<<<< HEAD
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Feature_Detail_Page" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-=======
->>>>>>> Feature_Detail_Page
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -282,28 +194,11 @@
         <option value="1" />
       </set>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="Feature_Detail_Page" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Razor Page" />
     <MESSAGE value="Add project for ToDoOtd.Core and ToDoOtd.Data" />
-    <MESSAGE value="Display values in Page" />
-    <MESSAGE value="Emit Cheat sheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Emit Cheat sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project for ToDoOtd.Core and ToDoOtd.Data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Plugins" timestamp="1587386711131">
@@ -318,122 +213,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="395" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1587388917168" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587469808330">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587532379653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587469808330" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587469128595">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587532379653" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587491136102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587469128595" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587469128594">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587491136102" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587491136101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587469128594" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587469128593">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587491136101" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587491136101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587469128593" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587469128594">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587491136101" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587491136101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587469128594" />
-    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.2.bottom" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.2.center" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.2.left" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.2.right" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.3.bottom" timestamp="1587459407429">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587459407429" />
-    <state width="1322" height="217" key="GridCell.Tab.3.center" timestamp="1587459407429">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1587459407429" />
-    <state width="1322" height="217" key="GridCell.Tab.3.left" timestamp="1587459407428">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1587459407428" />
-    <state width="1322" height="217" key="GridCell.Tab.3.right" timestamp="1587459407429">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-<<<<<<< HEAD
-    <state width="1322" height="217" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1587459407429" />
-    <state width="1322" height="217" key="GridCell.Tab.4.bottom" timestamp="1587459407430">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587459407430" />
-    <state width="1322" height="217" key="GridCell.Tab.4.center" timestamp="1587459407429">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1587459407429" />
-    <state width="1322" height="217" key="GridCell.Tab.4.left" timestamp="1587459407429">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1587459407429" />
-    <state width="1322" height="217" key="GridCell.Tab.4.right" timestamp="1587459407430">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1587459407430" />
-=======
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587388941556" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1587487882291">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1587487882291">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1587487882291">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1587487882291">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587487882291" />
->>>>>>> Feature_Detail_Page
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587491136101" />
     <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size" timestamp="1587389906948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="94" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1587389906948" />
-    <state x="95" y="0" key="SettingsEditor" timestamp="1587443970870">
+    <state x="95" y="0" key="SettingsEditor" timestamp="1587532622135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587443970870" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1587469533211">
+    <state x="95" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587532622135" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1587393036129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587469533211" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587393036129" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587380270735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -442,82 +253,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587388006350" />
-    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587488245045">
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587532400480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587488245045" />
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587532400480" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-<<<<<<< HEAD
-          <url>file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" initialLine="22">
-            <startOffsets>
-              <option value="679" />
-            </startOffsets>
-            <endOffsets>
-              <option value="680" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/ToDoOdt.Data/InMemoryRestaurantData.cs" initialLine="22">
-            <startOffsets>
-              <option value="849" />
-            </startOffsets>
-            <endOffsets>
-              <option value="850" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" initialLine="18" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs</url>
-          <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" initialLine="16">
-            <startOffsets>
-              <option value="519" />
-            </startOffsets>
-            <endOffsets>
-              <option value="520" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-=======
-          <url>file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs</url>
-          <line>11</line>
-          <properties documentPath="$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" initialLine="8">
-            <startOffsets>
-              <option value="343" />
-            </startOffsets>
-            <endOffsets>
-              <option value="344" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
->>>>>>> Feature_Detail_Page
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="DotNet Exception Breakpoints" />
         <breakpoint type="DotNet Exception Breakpoints">
