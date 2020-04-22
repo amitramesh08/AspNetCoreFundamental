@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using System.Reflection.Metadata.Ecma335;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ActionConstraints;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using ToDoOdt.Core;
 using ToDoOdt.Data;
 
@@ -12,9 +15,14 @@ namespace ToDoOdt.Pages.Restaurants
         {
             _restaurantData = restaurantData;
         }
-        public void OnGet(int restaurantId)
+        public IActionResult OnGet(int restaurantId)
         {
             Restaurant = _restaurantData.GetRestaurantById(restaurantId);
+            if (Restaurant == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            return Page();
         }
     }
 }

@@ -31,12 +31,7 @@ namespace ToDoOdt.Data
 
         public Restaurant GetRestaurantById(int restaurantId)
         {
-            return _restaurants.Single(x => x.Id.Equals(restaurantId));
-        }
-
-        public Restaurant GetGetRestaurantById(int restaurantId)
-        {
-            return _restaurants.Single(x => x.Id.Equals(restaurantId));
+            return _restaurants.SingleOrDefault(x => x.Id.Equals(restaurantId));
         }
     }
 }
