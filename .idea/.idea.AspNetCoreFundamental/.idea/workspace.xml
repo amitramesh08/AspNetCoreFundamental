@@ -16,6 +16,10 @@
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/Pages/Restaurants/Detail.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/13D/FilterCursor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoOdt/obj/Debug/netcoreapp3.1/Razor/Pages/Restaurants/Detail.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoOdt/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FCFA0254-6D65-4238-AFF3-3D94494E535B/22/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
@@ -252,10 +256,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1587388006350" />
-    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587532400480">
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587534417894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587532400480" />
+    <state x="357" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1587534417894" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
