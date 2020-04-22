@@ -7,6 +7,6 @@ namespace ToDoOdt.Data
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetAllRestaurantByName(string restaurantName);
-        Restaurant GetGetRestaurantById(int restaurantId);
+        Restaurant GetRestaurantById(int restaurantId);
     }
 }

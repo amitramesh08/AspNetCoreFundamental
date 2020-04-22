@@ -7,10 +7,10 @@ namespace ToDoOdt.Data
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetAllRestaurantByName(string restaurantName);
-<<<<<<< HEAD
+
         Restaurant GetGetRestaurantById(int restaurantId);
-=======
+
         Restaurant GetRestaurantById(int restaurantId);
->>>>>>> Feature_Detail_Page
+
     }
 }
