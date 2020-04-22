@@ -29,9 +29,13 @@ namespace ToDoOdt.Data
                 .OrderBy(r => r.Name);
         }
 
+<<<<<<< HEAD
+        public Restaurant GetGetRestaurantById(int restaurantId)
+=======
         public Restaurant GetRestaurantById(int restaurantId)
+>>>>>>> Feature_Detail_Page
         {
-            return _restaurants.SingleOrDefault(x => x.Id.Equals(restaurantId));
+            return _restaurants.Single(x => x.Id.Equals(restaurantId));
         }
     }
 }
