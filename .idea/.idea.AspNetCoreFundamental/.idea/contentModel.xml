@@ -122,7 +122,9 @@
       <e p="ToDoOdt.Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="InMemoryRestaurantData.cs" t="Include" />
+        <e p="InMemoryRestaurantData.cs.orig" t="Include" />
         <e p="IRestaurantData.cs" t="Include" />
+        <e p="IRestaurantData.cs.orig" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
