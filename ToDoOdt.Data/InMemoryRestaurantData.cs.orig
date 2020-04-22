@@ -29,12 +29,11 @@ namespace ToDoOdt.Data
                 .OrderBy(r => r.Name);
         }
 
-        public Restaurant GetRestaurantById(int restaurantId)
-        {
-            return _restaurants.Single(x => x.Id.Equals(restaurantId));
-        }
-
+<<<<<<< HEAD
         public Restaurant GetGetRestaurantById(int restaurantId)
+=======
+        public Restaurant GetRestaurantById(int restaurantId)
+>>>>>>> Feature_Detail_Page
         {
             return _restaurants.Single(x => x.Id.Equals(restaurantId));
         }
