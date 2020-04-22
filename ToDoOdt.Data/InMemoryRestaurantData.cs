@@ -7,7 +7,7 @@ namespace ToDoOdt.Data
 {
     public class InMemoryRestaurantData : IRestaurantData
     {
-        private readonly IEnumerable<Restaurant> _restaurants;
+        private readonly List<Restaurant> _restaurants;
 
         public InMemoryRestaurantData()
         {
@@ -47,6 +47,13 @@ namespace ToDoOdt.Data
             restaurantUpdate.Cuisine = restaurant.Cuisine;
 
             return restaurant;
+        }
+
+        public Restaurant AddRestaurant(Restaurant newRestaurant)
+        {
+            _restaurants.Add(newRestaurant);
+            newRestaurant.Id = _restaurants.Max(x => x.Id) + 1;
+            return newRestaurant;
         }
     }
 }

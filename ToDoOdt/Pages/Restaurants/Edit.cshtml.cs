@@ -23,12 +23,15 @@ namespace ToDoOdt.Pages.Restaurants
             CuisineList = new List<SelectListItem>();
         }
 
-        public IActionResult OnGet(int restaurantId)
+        public IActionResult OnGet(int? restaurantId)
         {
-            Restaurant = _restaurantData.GetRestaurantById(restaurantId);
-            if (Restaurant == null)
+            if (restaurantId.HasValue)
             {
-                return RedirectToPage("./NotFound");
+                Restaurant = _restaurantData.GetRestaurantById(restaurantId.Value);
+            }
+            else
+            {
+                Restaurant = new Restaurant();
             }
             CuisineList = _htmlHelper.GetEnumSelectList<CuisineType>();
             return Page();
@@ -38,15 +41,23 @@ namespace ToDoOdt.Pages.Restaurants
         {
             if (ModelState.IsValid)
             {
-                var reactantUpdate = _restaurantData.UpdateRestaurant(Restaurant);
-                if (reactantUpdate == null)
+                if (Restaurant.Id > 0)
                 {
-                    RedirectToPage("./NotFound");
+                    var reactantUpdate = _restaurantData.UpdateRestaurant(Restaurant);
+                }
+                else
+                {
+                    _restaurantData.AddRestaurant(Restaurant);
+                    RedirectToPage("./List");
                 }
             }
+            else
+            {
+                CuisineList = _htmlHelper.GetEnumSelectList<CuisineType>();
+                return Page();
+            }
             CuisineList = _htmlHelper.GetEnumSelectList<CuisineType>();
-            return RedirectToPage("./List");
-            //return Page();
+            return RedirectToPage("./Detail", new {restaurantId= Restaurant.Id});
         }
     }
 }
