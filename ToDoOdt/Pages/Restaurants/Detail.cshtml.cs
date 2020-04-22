@@ -11,6 +11,9 @@ namespace ToDoOdt.Pages.Restaurants
     {
         private readonly IRestaurantData _restaurantData;
         public Restaurant Restaurant { get; private set; }
+        
+        [TempData]
+        public string MessageInfo { get; set; }
         public Detail(IRestaurantData restaurantData)
         {
             _restaurantData = restaurantData;
