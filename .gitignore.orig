@@ -348,11 +348,17 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+<<<<<<< HEAD
 /AspNetCoreFundamental.sln
 /ToDoOdt/ToDoOdt.csproj
 /.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml.orig~Feature_Detail_Page
+=======
+/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml
+/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml
+/.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml.orig
 /.idea/.idea.AspNetCoreFundamental/.idea/workspace.xml.orig~Feature_Detail_Page
 /.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml
 /.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml
 /ToDoOdt.Data/IRestaurantData.cs.orig
 /.idea/.idea.AspNetCoreFundamental/.idea/contentModel.xml
+>>>>>>> DEVToDoOtd

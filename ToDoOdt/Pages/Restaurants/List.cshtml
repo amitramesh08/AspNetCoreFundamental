@@ -6,12 +6,11 @@
 
 <html>
 <head>
-    <title></title>
-    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <title>Restaurants</title>
 </head>
 <body>
 <div class="container">
-    <h1>Restaurants</h1>
+    
     <form method="get">
         <div class="from-group">
             <div class="input-group">
@@ -22,22 +21,28 @@
             </div>
         </div>
     </form>
+    <div class="card">
+        <div class="card-header bg-primary">
+            Restaurants
+        </div>
+        <div class="card-body">
+            <table class="table">
+                    @foreach (var item in  Model.Restarants)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Location</td>
+                            <td>@item.Cuisine.ToString()</td>
+                            <td><a asp-page="./Detail" 
+                                   asp-route-restaurantId="@item.Id">Details</a></td>
+                            <td><a asp-page="./Edit" asp-route-restaurantId="@item.Id">Edit</a></td>
+                        </tr>
+                    }
+                </table>
+                <a asp-page="./Edit" class="btn btn-primary">Add</a>
+        </div>
+    </div>
     
-    <table class="table">
-        @foreach (var item in  Model.Restarants)
-        {
-            <tr>
-                <td>@item.Name</td>
-                <td>@item.Location</td>
-                <td>@item.Cuisine.ToString()</td>
-                <td><a asp-page="./Detail" 
-                       asp-route-restaurantId="@item.Id">Details</a></td>
-                <td><a asp-page="./Edit" asp-route-restaurantId="@item.Id">Edit</a></td>
-            </tr>
-        }
-    </table>
 </div>
-@* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
-    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
 </body>
 </html>
