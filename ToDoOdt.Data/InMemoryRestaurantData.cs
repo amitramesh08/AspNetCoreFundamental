@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using ToDoOdt.Core;
 
@@ -32,6 +33,20 @@ namespace ToDoOdt.Data
         public Restaurant GetRestaurantById(int restaurantId)
         {
             return _restaurants.SingleOrDefault(x => x.Id.Equals(restaurantId));
+        }
+
+        public Restaurant UpdateRestaurant(Restaurant restaurant)
+        {
+            var restaurantUpdate= _restaurants.SingleOrDefault(x => x.Id.Equals(restaurant.Id));
+            if (restaurantUpdate == null)
+            {
+                return null;
+            }
+            restaurantUpdate.Name = restaurant.Name;
+            restaurantUpdate.Location = restaurant.Location;
+            restaurantUpdate.Cuisine = restaurant.Cuisine;
+
+            return restaurant;
         }
     }
 }
