@@ -44,11 +44,13 @@ namespace ToDoOdt.Pages.Restaurants
                 if (Restaurant.Id > 0)
                 {
                     var reactantUpdate = _restaurantData.UpdateRestaurant(Restaurant);
+                    TempData["MessageInfo"] = "Restaurant has been saved successfully";
                 }
                 else
                 {
                     _restaurantData.AddRestaurant(Restaurant);
-                    RedirectToPage("./List");
+                    TempData["MessageInfo"] = "Restaurant has been saved successfully";
+                    //RedirectToPage("./List");
                 }
             }
             else
