@@ -27,5 +27,11 @@ namespace ToDoOdt.Pages.Restaurants
         {
             Restarants = _restaurantData.GetAllRestaurantByName(RestaurantName).ToList();
         }
+
+        // public IActionResult OnDetete(int restaurantId)
+        // {
+        //     var rest =  _restaurantData.DeleteRastaurant(restaurantId);
+        //     return new OkObjectResult(rest);
+        // }
     }
 }
