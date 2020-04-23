@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using ToDoOdt.Core;
 
 namespace ToDoOdt.Data
@@ -54,6 +55,15 @@ namespace ToDoOdt.Data
             _restaurants.Add(newRestaurant);
             newRestaurant.Id = _restaurants.Max(x => x.Id) + 1;
             return newRestaurant;
+        }
+        public Restaurant DeleteRastaurant(int restaurantId)
+        {
+            var restaurant = _restaurants.SingleOrDefault(x => x.Id.Equals(restaurantId));
+            if (restaurant != null)
+            {
+                _restaurants.Remove(restaurant);
+            }
+            return restaurant;
         }
     }
 }

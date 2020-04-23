@@ -1,0 +1,19 @@
+﻿@page
+@model ToDoOdt.Pages.Restaurants.Delete
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Delete Restaurant
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger">
+                Are you sure you want to delete @Model.Restaurant.Name
+            </div>
+          
+        </div>
+    </div>
+      <form method="post">
+                    <button type="submit" class="btn btn-primary">Yes</button>
+                    <a asp-page="./List" class="btn btn-primary">Cancel</a>
+                </form>
+</div>
