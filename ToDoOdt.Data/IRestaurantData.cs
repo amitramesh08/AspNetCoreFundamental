@@ -11,6 +11,7 @@ namespace ToDoOdt.Data
         Restaurant UpdateRestaurant(Restaurant restaurant);
         Restaurant AddRestaurant(Restaurant restaurant);
         Restaurant DeleteRastaurant(int restaurantId);
+        int RestaurantCount();
 
     }
 }

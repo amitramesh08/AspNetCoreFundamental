@@ -65,5 +65,9 @@ namespace ToDoOdt.Data
             }
             return restaurant;
         }
+        public int RestaurantCount()
+        {
+            return _restaurants.Count();
+        }
     }
 }
