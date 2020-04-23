@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,6 +26,7 @@ namespace ToDoOdt
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddDbContextPool<ToDoTdoDbContext>(config =>
                 {
                     config.UseSqlServer(Configuration.GetConnectionString("RestaurantDB"));
@@ -50,12 +52,16 @@ namespace ToDoOdt
             app.UseStaticFiles();
 
             app.UseRouting();
-
+          
             //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                //Note: if you are using ASP.NET CORE WEB - AS A RAZOR Application the 
+                //and create api controller inside the app then you have to configure or map 
+                // Razor and Controller for endpoints otherwise api will not work.
+                endpoints.MapControllers();
             });
         }
     }
