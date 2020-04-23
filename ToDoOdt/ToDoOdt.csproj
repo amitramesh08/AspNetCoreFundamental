@@ -13,4 +13,8 @@
     <None Remove="Pages\Restaurants\Detail.cshtml.cs.orig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Api\RestaurantController.cs" />
+  </ItemGroup>
+
 </Project>

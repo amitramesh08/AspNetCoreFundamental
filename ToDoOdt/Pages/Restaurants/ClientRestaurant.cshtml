@@ -1,0 +1,15 @@
+﻿@page
+@model ToDoOdt.Pages.Restaurants.ClientRestaurant
+
+<h2>Client Restaurants</h2>
+
+@section Scripts
+{
+    <script>
+    $(function(){
+        $.ajax('/api/restaurant/',{method:"get"}).then(response =>{
+           console.dir(response); 
+        });
+    });
+    </script>
+}
