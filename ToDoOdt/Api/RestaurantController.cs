@@ -21,12 +21,14 @@ namespace ToDoOdt.Api
         // }
         // api/restaurants
         
-        [HttpGet]
+        [HttpPost]
         //[Route("/api/Rest")]
         public IActionResult GetRestaurants()
         {
             var restaurants = _restaurantData.GetRestaurantById(1);
             return Ok(restaurants);
+            
+            //return Json(dataTable, JsonRequestBehavior.AllowGet);
         }
     }
 }
