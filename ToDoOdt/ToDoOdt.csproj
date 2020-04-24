@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ToDoOdt.Data\ToDoOdt.Data.csproj" />
+    <PackageReference Include="jquery.datatables" Version="1.10.15" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.0.0" />
   </ItemGroup>
 

@@ -25,6 +25,14 @@ namespace ToDoOdt
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors((config => { config.AddPolicy("AddDefaultPolicy", options =>
+                {
+                    options.AllowAnyHeader();
+                    options.AllowAnyMethod();
+                    options.AllowAnyOrigin();
+                }); 
+            }));
+            
             services.AddRazorPages();
             services.AddControllers();
             services.AddDbContextPool<ToDoTdoDbContext>(config =>
@@ -48,6 +56,7 @@ namespace ToDoOdt
                 app.UseHsts();
             }
 
+            app.UseCors("AddDefaultPolicy");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

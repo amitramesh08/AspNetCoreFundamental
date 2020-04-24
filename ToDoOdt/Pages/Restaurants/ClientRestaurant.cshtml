@@ -1,15 +1,102 @@
 ﻿@page
 @model ToDoOdt.Pages.Restaurants.ClientRestaurant
-
 <h2>Client Restaurants</h2>
 
+<table class="table" id="restaurant">
+    
+</table>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"/>
 @section Scripts
 {
+    @* <environment include="Development"> *@
+        
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    @* </environment> *@
+    
     <script>
-    $(function(){
-        $.ajax('/api/restaurant/',{method:"get"}).then(response =>{
-           console.dir(response); 
-        });
-    });
+   
+    //  $(document).ready(function(){
+    //
+    //      $.ajax({
+    //      url:"/api/restaurant",
+    //      method:"get",
+    //     datatype:"json",
+    //      success:function(data){
+    //          console.table(data);
+    //          $('#restaurant').dataTable({
+    //          data:data,
+    //        columns:[
+    //              {'data' :'cuisine'},
+    //              {'data' : 'id'},
+                    //{'data' : 'location'},
+                    //{'data' : 'name'},
+    //          ]
+    //          });
+    //      }
+    //      });
+    //
+    // });
+
+    
+    
+    // $(document).ready(function() {
+    //     $("#restaurant").DataTable( {
+    //         "ajax": {
+    //             "url": "/api/restaurant",
+    //             "type": "POST",
+    //             "datatype":"json"
+    //         },
+    //         "columns": [
+    //             { "data": "Cuisine" , "cuisine":"Cuisine" },
+    //             { "data": "Id","id":"Id" },
+    //             { "data": "Location","location":"Location" },
+    //             { "data": "Name","name":"Name" }
+    //         ],
+    //         "sAjaxDataProp":"",
+    //         "dataSrc":"",
+    //         "serverSide":true,
+    //
+    //     } );
+    // } );
+    
+    
+    //  $(function(){
+    //         $.ajax({'url':'/api/restaurant/'
+    //         ,'method':'get'
+    //         ,'contentType': 'application/json'
+    //         }).then(response =>{
+    //            console.dir(response); 
+    //            $("#restaurant").dataTable({
+    //            data: response,
+    //            columns: [
+    //                {
+    //                    "data": "name"
+    //                }
+    //            ]
+    //            });
+    //         });
+    //     });
+    
+    var filterValues = {};
+            $(document).ready(function () {
+                var refDataTable = $("#restaurant").dataTable({
+                    serverSide: true,
+                    bFilter: false,
+                    "dataSrc":"",
+                    "sAjaxDataProp":"",
+                    columns: [
+                          {'data' :'Name'},
+                    ],
+                    ajax: function (data, callback, settings) {
+                        $.ajax({
+                            url: '/api/restaurant/',
+                            method: 'POST'
+                        }).done(callback);
+                    }
+                });
+            });
+    
+    
+    
     </script>
 }
