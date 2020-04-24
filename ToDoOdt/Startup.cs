@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -56,6 +57,7 @@ namespace ToDoOdt
                 app.UseHsts();
             }
 
+            app.Use(SayHelloMiddleWaye);
             app.UseCors("AddDefaultPolicy");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -72,6 +74,21 @@ namespace ToDoOdt
                 // Razor and Controller for endpoints otherwise api will not work.
                 endpoints.MapControllers();
             });
+        }
+
+        public RequestDelegate SayHelloMiddleWaye( RequestDelegate next)
+        {
+            return async ctx =>
+            {
+                if (ctx.Request.Path.StartsWithSegments("/hello"))
+                {
+                    await ctx.Response.WriteAsync("Hello World");
+                }
+                else
+                {
+                    await next(ctx);
+                }
+            };
         }
     }
 }
